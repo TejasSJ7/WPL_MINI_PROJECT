@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  nav{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 20px;
+}
+nav a{
+    color: rgb(44, 41, 41);
+    padding: 20px;
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: font-size 0.2s;
+}
+
+nav a:hover
+{
+    color: rgb(44, 41, 41);
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+  body {
+    background-image: url(https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+  }
+  
+  .heading{
+      padding: 35px;
+      background-color: rgb(52, 64, 73);
+      color: azure;
+      text-align: center;
+      border-radius: 10px;
+      width: 100%;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  textarea{
+      width: 80%;
+      border-radius: 5px;
+      border: none;
+      padding: 10px;
+      margin: 10px;
+  }
+  
+  .container{
+    border: 1px solid rgb(190, 197, 224);
+    border-radius: 8px;
+    padding: 10px;
+    background-color:hsl(180, 69%, 45%) ;
+    color:#ffffff;
+    padding-right: 10px;
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: 400;
+    color: black;
+  }
+  
+  input[type="submit"]
+  {
+      background-color:chocolate;
+      padding: 20px;
+      border-radius: 5px;
+      margin-left: 40px;
+      width: 60%;
+      border: none;
+      cursor: pointer;
+      font-size: medium;
+      font-weight: bolder;
+  }
+  
+  input[type="submit"]:hover
+  {
+      background-color: black;
+      color: goldenrod;
+  }
+  
+  

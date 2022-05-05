@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;  
+    list-style: none; 
+}
+
+body
+{
+    margin: 0px;    
+    background: #1D2B64;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+header 
+{
+    padding: 60px;
+    text-align: center;
+    background-color: black;
+}
+
+header h1{
+    color: aqua;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+nav{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 20px;
+}
+nav a{
+    color: rgb(44, 41, 41);
+    padding: 20px;
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: font-size 0.2s;
+}
+
+nav a:hover
+{
+    color: rgb(44, 41, 41);
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.div1{
+    margin-left: 25%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}

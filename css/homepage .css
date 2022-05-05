@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;  
+    list-style: none; 
+}
+
+body
+{
+    margin: 0px;    
+    background: #1CD8D2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+
+header 
+{
+    padding: 60px;
+    text-align: center;
+    background-color: black;
+}
+
+header h1{
+    color: aqua;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+nav{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 20px;
+}
+nav a{
+    color: rgb(44, 41, 41);
+    padding: 20px;
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: font-size 0.2s;
+}
+
+nav a:hover
+{
+    color: rgb(44, 41, 41);
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.card
+{
+    text-align:center;
+    display: inline-block;
+    margin: 40px;
+}
+
+.cards{
+    padding-left: 300px;
+    background: #1CD8D2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+.carousel-cell img{
+    padding: 30px;
+    max-width: 100%;
+}
+
+h2{
+    text-align: center;
+    padding-top: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subjects{
+    background: #1CD8D2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+span{
+    background-color: black;
+    padding: 15px;
+    color: #FFD700;
+    border-radius: 20px;
+}
+
+.quote{
+    padding-top: 50px;
+    background: #1CD8D2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    padding-top: 50px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 50%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 15px;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 25px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+ 
